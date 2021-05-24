@@ -1,0 +1,14 @@
+{
+    "name": "fishpig/magento2-remove-vault",
+    "description": "Remove Vault.",
+    "type": "project",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Magento\\Vault\\": "Mock/Magento/Vault"
+        }
+    },
+    "replace": {
+        "magento/module-vault-graph-ql": "*"
+    }
+}
